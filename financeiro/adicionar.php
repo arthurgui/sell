@@ -99,17 +99,7 @@ $contaspagar->insert();
     </script>
 
     <script language="javascript">
-//-----------------------------------------------------
-//Funcao: MascaraMoeda
-//Sinopse: Mascara de preenchimento de moeda
-//Parametro:
-//   objTextBox : Objeto (TextBox)
-//   SeparadorMilesimo : Caracter separador de milésimos
-//   SeparadorDecimal : Caracter separador de decimais
-//   e : Evento
-//Retorno: Booleano
-//Autor: Gabriel Fróes - www.codigofonte.com.br
-//-----------------------------------------------------
+
 function MascaraMoeda(objTextBox, SeparadorMilesimo, SeparadorDecimal, e){
     var sep = 0;
     var key = '';
